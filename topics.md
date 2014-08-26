@@ -4,4 +4,4 @@ Possible topics that would be good to cover
 - scala packaging
 - futures
 - options
-
+- writing an sbt plugin
