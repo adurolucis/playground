@@ -5,3 +5,5 @@ Possible topics that would be good to cover
 - futures
 - options
 - writing an sbt plugin
+- Domain Specific Languages (DSLs)
+- Pattern Matching
