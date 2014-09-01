@@ -7,3 +7,4 @@ Possible topics that would be good to cover
 - writing an sbt plugin
 - Domain Specific Languages (DSLs)
 - Pattern Matching
+- Traits
