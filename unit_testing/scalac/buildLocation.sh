@@ -1,0 +1,1 @@
+scalac Location.scala
