@@ -8,3 +8,4 @@ Possible topics that would be good to cover
 - Domain Specific Languages (DSLs)
 - Pattern Matching
 - Traits
+- Implicits
