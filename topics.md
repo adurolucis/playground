@@ -9,3 +9,5 @@ Possible topics that would be good to cover
 - Pattern Matching
 - Traits
 - Implicits
+- scaladoc
+- scalac
