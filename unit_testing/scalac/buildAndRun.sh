@@ -16,5 +16,5 @@ done
 
 #  echo "**** RUNNING $f ****"
   #scala -cp ~/tools/scalatest_2.11-2.2.1.jar org.scalatest.run ${f%.*}
-  scala -cp ~/tools/scalatest_2.11-2.2.1.jar org.scalatest.run ScalaLocationTest
+  #scala -cp ~/tools/scalatest_2.11-2.2.1.jar org.scalatest.run ScalaLocationTest
 #done
