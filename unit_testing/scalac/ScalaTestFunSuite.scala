@@ -7,11 +7,16 @@ class Location(val Lat: Double, val Lon: Double) {
 
 class ScalaTestFunSuite extends FunSuite { 
 
-  test("Checking invalid Lat") {  
-    val x: Double = 31.35453
-    val y: Double = -107.994545
-    val loc = new Location(x, y)
+  val x: Double = 31.35453
+  val y: Double = -107.994545
+  val loc = new Location(x, y)
+
+  test("Checking Lat Value") {  
     assert(loc.lat === x)
+  }
+
+  test("Checking Lon Value") {
+    assert(loc.lon === y)
   }
 
 }

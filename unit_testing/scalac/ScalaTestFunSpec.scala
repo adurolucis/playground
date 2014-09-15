@@ -13,14 +13,14 @@ class ScalaTestFunSpec extends FunSpec {
 
 
   describe("A Location") {
-    describe("when lat is set to ") {
-      it("should have a lat set to") {
+    describe("when lat is set") {
+      it("should have a valid lat") {
         assert(loc.lat == x)
       }
     }
 
-    describe("when lon is set to ") {
-      it("should have a lon set to ") {
+    describe("when lon is set") {
+      it("should have a valid lon") {
         assert(loc.lon == y)
       }
     }  

@@ -11,10 +11,17 @@ do
 
 done
 
-#for f in $FILES
-#do
+for f in $FILES
+do
 
-#  echo "**** RUNNING $f ****"
-  #scala -cp ~/tools/scalatest_2.11-2.2.1.jar org.scalatest.run ${f%.*}
-  #scala -cp ~/tools/scalatest_2.11-2.2.1.jar org.scalatest.run ScalaLocationTest
-#done
+  filename=$(basename "$f")
+
+  echo "**** RUNNING $filename ****"
+  if [ "$filename" = "ScalaLocationTest.scala" ]
+  then
+    scala ${filename%.*}
+  else
+    scala -cp ~/tools/scalatest_2.11-2.2.1.jar org.scalatest.run ${filename%.*}
+  fi
+
+done
