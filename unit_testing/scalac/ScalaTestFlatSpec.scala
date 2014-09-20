@@ -1,10 +1,5 @@
 import org.scalatest.FlatSpec 
 
-class Location(val Lat: Double, val Lon: Double) {
-  val lat = Lat
-  val lon = Lon
-}
-
 class ScalaTestFlatSpec extends FlatSpec { 
 
   val x: Double = 31.35453
