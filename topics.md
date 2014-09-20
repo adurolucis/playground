@@ -11,3 +11,4 @@ Possible topics that would be good to cover
 - Implicits
 - scaladoc
 - scalac
+- structural types
