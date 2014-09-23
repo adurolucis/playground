@@ -12,3 +12,7 @@ Possible topics that would be good to cover
 - scaladoc
 - scalac
 - structural types
+- unit testing
+  - scalatest
+  - spec
+  - scala asserts
