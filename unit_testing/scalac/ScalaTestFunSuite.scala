@@ -1,10 +1,5 @@
 import org.scalatest.FunSuite 
 
-class Location(val Lat: Double, val Lon: Double) {
-  val lat = Lat
-  val lon = Lon
-}
-
 class ScalaTestFunSuite extends FunSuite { 
 
   val x: Double = 31.35453

@@ -7,7 +7,7 @@ for f in $FILES
 do
 
   echo "**** COMPILING $f ****"
-  scalac -cp ~/tools/scalatest_2.11-2.2.1.jar $f
+  scalac -cp ~/tools/scalatest_2.11-2.2.1.jar:. $f
 
 done
 
@@ -21,7 +21,7 @@ do
   then
     scala ${filename%.*}
   else
-    scala -cp ~/tools/scalatest_2.11-2.2.1.jar org.scalatest.run ${filename%.*}
+    scala -cp ~/tools/scalatest_2.11-2.2.1.jar:. org.scalatest.run ${filename%.*}
   fi
 
 done

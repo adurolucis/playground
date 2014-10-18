@@ -1,10 +1,5 @@
 import org.scalatest.FunSpec 
 
-class Location(val Lat: Double, val Lon: Double) {
-  val lat = Lat
-  val lon = Lon
-}
-
 class ScalaTestFunSpec extends FunSpec { 
 
   val x: Double = 31.35453

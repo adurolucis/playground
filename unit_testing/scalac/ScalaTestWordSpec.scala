@@ -1,10 +1,5 @@
 import org.scalatest.WordSpec 
 
-class Location(val Lat: Double, val Lon: Double) {
-  val lat = Lat
-  val lon = Lon
-}
-
 class ScalaTestWordSpec extends WordSpec { 
 
   val x: Double = 31.35453
