@@ -7,7 +7,10 @@ val animal = new Animal
 
 No constructors exist for primitive types
 ```
-val num = new Int(7) //will not compile
+val num = new Int(7) // will not compile
 ```
+
+Members with no access modifiers are ```public``` visibility by default, and not ```default``` visibility as in Java
+
 
 
