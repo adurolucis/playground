@@ -14,3 +14,7 @@ Members with no access modifiers are ```public``` visibility by default, and not
 
 
 
+Use the ```sameElements``` when comparing whether or not two arrays are equal
+```
+Array(1,3).sameElements(Array(1,3)) // true
+```
