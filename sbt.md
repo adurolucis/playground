@@ -4,8 +4,17 @@ sbt sbtVersion
 ```
 
 ## Interactive Mode ##
-Prefixing any task with the command 'show' will show task's resulting value.
+Prefixing any key with the command 'show' will show key's resulting value.  This is especially useful with taskKeys which do not output their resulting values by default
+### show ###
 ```
-show [task]
+show [key]
 show compile
+```
+
+### inspect ###
+The inspect command will provide information about any key.
+```
+inspect [key]
+inspect compile
+inspect dist
 ```
